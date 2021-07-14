@@ -35,8 +35,8 @@ class DataQualityValidator(object):
             "drivername": "postgres",
             "host": "192.168.99.100",
             "port": 5432,
-            "username": "airflow",
-            "password": "airflow",
+            "username": "admin",
+            "password": "admin",
             "database": "ge",
             "schema": "great_expectations"
         }
