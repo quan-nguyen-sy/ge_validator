@@ -204,7 +204,7 @@ batch_request = RuntimeBatchRequest(
     data_connector_name="runtime_data_connector",
     data_asset_name="insert_your_data_asset_name_here",
     runtime_parameters={
-      "batch_data": df_csv
+      "batch_data": df
     },
     batch_identifiers={
         "dag_id": "post_mortem_identify_fraud_trans",
